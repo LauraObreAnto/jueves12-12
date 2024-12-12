@@ -1,21 +1,14 @@
+package jueves;
 
 public class Maleta {
 
 	private String marca;
 	private double peso;
 	private double alto;
-	private double ancho;
 	private double largo;
-
-	public Maleta(String marca, double peso, double alto, double ancho, double largo) {
-		super();
-		this.marca = marca;
-		this.peso = peso;
-		this.alto = alto;
-		this.ancho = ancho;
-		this.largo = largo;
-	}
-
+	private double ancho;
+	
+	
 	public String getMarca() {
 		return marca;
 	}
@@ -40,14 +33,6 @@ public class Maleta {
 		this.alto = alto;
 	}
 
-	public double getAncho() {
-		return ancho;
-	}
-
-	public void setAncho(double ancho) {
-		this.ancho = ancho;
-	}
-
 	public double getLargo() {
 		return largo;
 	}
@@ -56,4 +41,24 @@ public class Maleta {
 		this.largo = largo;
 	}
 
+	public double getAncho() {
+		return ancho;
+	}
+
+	public void setAncho(double ancho) {
+		this.ancho = ancho;
+	}
+
+	
+	
+	public Maleta(String marca, double peso, double alto, double largo, double ancho) {
+		super();
+		this.marca = marca;
+		this.peso = peso;
+		this.alto = alto;
+		this.largo = largo;
+		this.ancho = ancho;
+	}
+	
+	
 }

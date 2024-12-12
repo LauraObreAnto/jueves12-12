@@ -1,3 +1,4 @@
+package jueves;
 import java.util.ArrayList;
 
 public class TuristaRico {
